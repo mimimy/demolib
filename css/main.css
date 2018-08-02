@@ -1,0 +1,43 @@
+body {
+	background: #454545;
+	line-height: 1.7
+
+}
+.sid-bar {
+	float: left;
+	width: 20%;
+}
+a,body {
+	color:#eee;
+}
+a {
+	text-decoration: none;
+}
+.main {
+	float: right;	
+}
+.header .logo {
+	line-height: 1;
+	padding: 10px 20px;
+	font-size: 30px;
+	display: inline-block;
+	border: 5px solid #eee;
+	margin-bottom: 10px
+}
+.sid-bar > * {
+	padding: 10px 15px
+}
+.sid-bar .nav a, .sid-bar .tag_list a {
+	display: block;
+	padding: 5px;
+	color: #888;
+	transition: color 2s linear
+
+}
+.sid-bar .nav a:hover, .sid-bar .tag_list a:hover {
+
+	color: #eee;
+}
+.sid-bar .nav a {
+	font-weight: 700
+}
